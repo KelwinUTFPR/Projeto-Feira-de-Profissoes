@@ -1,0 +1,178 @@
+<?php include("conexao.php"); ?>
+
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Empreendedorismo</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css"> 
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="css/template-style.css"> 
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+   </head>
+   <body class="size-1140">
+                <!-- TOP NAV WITH LOGO -->  
+      <header>
+         <nav>
+            <div class="line">
+               <div class="top-nav">              
+                  <div class="logo logo-small">
+                     <a href="index.php">INOVE <br /><strong>EMPREENDA</strong></a>
+                  </div>                  
+                  <p class="nav-text">MENU</p>
+                  <div class="top-nav s-12 l-5">
+                     <ul class="right top-ul chevron">
+                        <li><a href="index.php">Home</a>
+                        </li>
+                        <li><a href="emp.php">O que é?</a>
+                        </li>
+                        <li><a href="cursos.php">Cursos</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <ul class="s-12 l-2">
+                     <li class="logo hide-s hide-m">
+                        <a href="index.php">INOVE <br /><strong>EMPREENDA</strong></a>
+                     </li>
+                  </ul>
+                  <div class="top-nav s-12 l-5">
+                     <ul class="top-ul chevron">
+                        <li><a href="uni.php">Universidades</a>
+                        </li>
+                        <li><a href="startup.php">O que é start-up?</a>
+                        </li>
+                     </ul> 
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section>
+         <div id="head">
+            <div class="line">
+               <h1>EMPREENDEDORISMO</h1>
+            </div>
+         </div>
+         <div id="content" class="left-align contact-page">
+            <div class="line">
+               <div class="margin">
+                  <div class="s-12 l-6">
+                    
+                  <p><h2>Sobre o curso:</h2>
+				  Empreender não é mais uma opção. Em um mundo onde empresas procuram pessoas com perfil empreendedor, e pessoas cada vez mais tem acesso ao empreendedorismo como opção de carreira, esse curso é obrigatório para o desenvolvimento de habilidades e competências imprescindíveis ao profissional do futuro.<br>
+				 Descubra o papel dos empreendedores na economia nacional, aprenda conceitos importantes sobre a postura empreendedora, os processos de inovação e identificação de oportunidades, além das principais características de um Plano de Negócios, e conheça o que é necessário para tirar o seu projeto do papel.</p>
+				  <br><br>
+				  <p><h2>Principais universidades e escolas:</h2>
+				  <a href="https://www.insper.edu.br/educacao-executiva/cursos-de-curta-duracao/empreendedorismo-e-inovacao/empreendedorismo-em-acao/">Instituição de ensino e pesquisa Insper</a><br>
+				  <a href="http://www.sp.senac.br/jsp/default.jsp?template=971.dwt&testeira=980&unit=NONE&type=NONE&speciality=432&theme_name=Empreendedorismo&sub=2">SENAC</a><br>
+				  <a href="https://www.ead.ms.senai.br/cursos/iniciacao_profissional/?id=7">EAD SENAI</a><br>
+				  <a href="https://www.fiap.com.br/shift/curso/negocios/empreendedorismo-start-me-up/">Shift FIAP</a> <br>
+				  <a href="https://www.ev.org.br/curso/administracao/fundamentos-da-administracao/empreendedorismo-e-inovacao?return=/cursos/administracao">Fundação Bradesco</a>
+				  </p>
+                  
+                  </div>
+                  <div class="s-12 l-6">
+                     <h2>Grade Curricular</h2>
+                    <table border="1px">
+					<tr><td>Inovação de tecnologias e processos</tr></td>
+					<tr><td>Intraempreendedor</tr></td>
+					<tr><td>Empreendedor</tr></td>
+					<tr><td>Planejamento e empreendedorismo.</tr></td>
+					<tr><td>Postura empreendedora</tr></td>
+					<tr><td>Modalidades de empreendedorismo</tr></td>
+					<tr><td>Empreendedorismo corporativo</tr></td>
+					<tr><td>Micro e pequenas empresas</tr></td>
+					<tr><td>Empreendimentos</tr></td>
+					<tr><td>Plano de Negócio</tr></td>
+					<tr><td>Identificando oportunidades</tr></td>
+					</table>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- MAP -->	
+         <div id="map-block">  	  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3656.158831713506!2d-46.6770966!3d-23.598636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575374b7481f%3A0x50e5aad2656c43ed!2sInsper+Instituto+de+Ensino+e+Pesquisa!5e0!3m2!1spt-BR!2sbr!4v1539639495912" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+         </div>
+         <div id="fourth-block">
+            <div class="line">
+               <div id="news-carousel" class="owl-carousel owl-theme">
+                  <div class="item">
+                     <h2>DICAS</h2>
+                     <p class="s-12 m-12 l-8 center">Tenha meta e siga um método. Quando uma pessoa tem os dois, ela rompe barreiras.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <h2>DICAS</h2>
+                     <p class="s-12 m-12 l-8 center">Seja inteligente, saiba usar o seu pensamento a seu favor. Seus pensamentos determinam a sua freqüência e seus sentimentos lhe dizem imediatamente em que freqüência você está. Quando se sente mal, você está na freqüência que atrai coisas ruins, prejudicando o alcance de suas metas.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <h2>DICAS</h2>
+                     <p class="s-12 m-12 l-8 center">Tenha fé, mas não deixe de agir para modificar a realidade. Vá do pensamento à ação.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FOOTER -->   
+     <footer>
+         <div class="line">
+            <div class="s-12 l-6">
+			<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="https://www.facebook.com/Empreendedorismo-2505578319457285/?modal=admin_todo_tour" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+			
+               <p><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-comments" data-href="https://www.facebook.com/Empreendedorismo-2505578319457285/?modal=admin_todo_tour" data-numposts="5"></div>
+               </p>
+            </div>
+            <div class="s-12 l-6">
+               <p class="right">
+                  <a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a>
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/responsee.js"></script> 
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>   
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {  
+           var owl = $('#news-carousel');
+           owl.owlCarousel({
+              nav: true,
+              dots: false,
+              items: 1,
+              loop: true,
+              navText: ["&#xf007","&#xf006"],
+              autoplay: true,
+              autoplayTimeout: 4000
+           });
+         });	
+          
+      </script>  
+   </body>
+</html>
